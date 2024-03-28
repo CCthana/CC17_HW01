@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <ul class="navbar">
+        <li class="link" ><a href="./index.html">Home</a></li>
+        <li class="link"><a href="education.html">Education</a></li>
+        <li class="link"><a href="./work.html">Work experience</a></li>
+        <li class="link"><a class="active" href="#">Contact</a></li>
+    </ul>
+    
+    <h1>Contact Me</h1>
+
+    <div class="contBox">
+      <p>Enter your info..</p>
+      <form>
+        
+        <div class="formcont">
+            <label> Your Name :<br> 
+                <input type="text" class="ConName" placeholder="sample"> 
+            </label>
+        </div>
+        
+        <div class="formcont">    
+            <label>Your E-mail :<br>
+                <input type="text" class="ConEmail" placeholder="youremail@somthing.com"> 
+            </label>
+        </div> 
+        
+        <div class="formcont">  
+            <label> Gender<br>
+            <select name="gender" class="gender">
+                <option>select..</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select> 
+            </label>
+        </div>
+        
+        <div class="formcont"> 
+            <label> Message: <br>
+                 <textarea name="message" cols="70" rows="20"></textarea>
+            </label>
+        </div>
+        
+
+        <button>OK</button>
+        <button type="reset">Reset</button>
+
+      </form>
+     
+    </div>
+
+
+</body>
+</html>
