@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
-body{
-  font-family: oswald;
+html {
+  font-family: "oswald", sans-serif;
   background-color: LightGray;
 }
 
@@ -29,10 +30,37 @@ body{
   .active {
     background-color: #ddcc2e;
   }
+
+  .profile {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    
+  }
+
+  .name {
+    margin: 20px;
+   
+  }
+
+  .name h1{
+    font-size: 50px;
+  }
+
    .profilepic {
     width: 250px;
     
    }
+
+   .detail  {
+    margin: 20px;
+   }
+
+   .skills {
+    margin-left: 20px;
+   }
+
+   
 
   .google {
     text-decoration: none;
@@ -47,6 +75,7 @@ body{
     border-collapse: collapse;
     width: 70vw;
     font-size: 16px;
+    background-color: beige;
     
   }
 
@@ -74,6 +103,10 @@ body{
   input[type=text], .gender {
     width: 85%;
     padding: 4px;
+  }
+
+  button {
+    font-family: "oswald", sans-serif;
   }
 
   
